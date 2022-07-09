@@ -1,6 +1,3 @@
-from data import download_data
-download_data() 
-import organise_data     
 import torch 
 import torch.nn as nn 
 import numpy as np 
