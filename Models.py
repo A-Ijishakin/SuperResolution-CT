@@ -286,7 +286,7 @@ def trainRNs(input_sizes, downsampling_factors, lr, num_epochs, batch_size, loss
   for idx, (in_size, downsampling_factor) in enumerate(zip(input_sizes, downsampling_factors)):
     train_set = SliceLoader(downsampling_factor)
     
-    train_loader = torch.utils.data.DataLoader(
+    train_loader = torch.utils.data.DataLoader( 
         train_set, 
         batch_size=batch_size, 
         shuffle=True)   
