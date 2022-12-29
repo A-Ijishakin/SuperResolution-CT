@@ -1,3 +1,3 @@
 # SuperResolution-CT
 This repository contains code which can be used to train an MLP, convolutional neural network, residually connected convolutional network and generative adversarial network to improve the resolution of abdominal CT images. It works by downsampling a 192x160 2D CT image, by various downsampling factors (2, 4, 6). The downsampled images act as the input data and the normal resolution image is the output. Once trained, unseen CT images, with dimensions which correspond to the downsampling factor can be fed to the network to be super-resolved. Each network can be trained on the various downsampling factors making for 12 networks in total.   
-![alt text](https://postimg.cc/47zSGxY1) 
+[![Screenshot-2022-12-29-at-10-53-27.png](https://i.postimg.cc/853QhFDx/Screenshot-2022-12-29-at-10-53-27.png)](https://postimg.cc/47zSGxY1) 
